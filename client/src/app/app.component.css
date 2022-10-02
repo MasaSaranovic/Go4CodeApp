@@ -1,0 +1,25 @@
+.navbar-brand {
+    font-size: 25px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: azure;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .navbar-right {
+    text-align: right;
+    list-style: none;
+  }
+  .navbar-inverse {
+    background-color: rgba(52, 214, 146, 0.833);
+  }
+  .item a {
+    color: white;
+    text-decoration: none;
+  }
+  .item {
+    display: inline-block;
+    margin: 10px;
+  }
+  

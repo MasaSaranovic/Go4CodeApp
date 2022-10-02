@@ -1,0 +1,11 @@
+<h1>Stavke Jelovnika</h1>
+
+<span>
+    <app-search></app-search>
+    <br/>
+</span>
+<br/>
+<app-stavka-list [stavke]="stavke"></app-stavka-list>
+<br/>
+<app-add-stavka-form (stavkaAdded)="addStavka($event)"></app-add-stavka-form>
+<br/>

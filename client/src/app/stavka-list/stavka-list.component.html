@@ -1,0 +1,19 @@
+<div>
+    <table class="table">
+      <tr>
+        <th>Naziv</th>
+        <th>Kategorija</th>
+        <th>Cena</th>
+      </tr>
+      <tr *ngFor="let stavka of stavke; let i = index">
+        <td>{{stavka.naziv}}</td>
+        <td>{{stavka.kategorija.naziv}}</td>
+        <td>{{stavka.cena}}</td>
+        <td>
+          <button *ngIf="logged" (click)="deleteStavka($event, stavka)" class="btn btn-danger">Obriši</button>
+          <button *ngIf="logged" class="btn btn-primary">Izmeni</button>
+        </td>
+      </tr>
+    </table>
+  
+  </div>
